@@ -10,7 +10,7 @@ export function Contact() {
             </h2>
             <div className="space-y-6">
               {[
-                { icon: "📍", label: "Địa chỉ", value: "123 Đường ABC, Hà Nội" },
+                { icon: "📍", label: "Địa chỉ", value: "456 Đường ABC, Hà Nội" },
                 { icon: "📞", label: "Điện thoại", value: "+84 971626088" },
                 { icon: "✉️", label: "Email", value: "hello@binhan.com" },
                 { icon: "⏰", label: "Giờ mở cửa", value: "Thứ 2 - Thứ 6: 9AM - 6PM" }
