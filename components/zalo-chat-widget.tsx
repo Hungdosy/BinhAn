@@ -3,7 +3,7 @@
 import { MessageCircle } from 'lucide-react'
 
 export function ZaloChatWidget() {
-  const zaloLink = process.env.NEXT_PUBLIC_ZALO_LINK || 'https://zalo.me/0915201641'
+  const zaloLink = process.env.NEXT_PUBLIC_ZALO_LINK || 'https://zalo.me/0971626088'
 
   return (
     <a
