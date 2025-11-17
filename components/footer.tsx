@@ -32,7 +32,7 @@ export function Footer() {
           <div>
             <h4 className="font-semibold mb-4">Kết nối</h4>
             <ul className="space-y-2 text-sm">
-              <li><Link href="#" className="hover:text-white transition-colors">Facebook</Link></li>
+              <li><Link href="https://www.facebook.com/decorinoxbinhan2025" className="hover:text-white transition-colors">Facebook</Link></li>
               <li><Link href="#" className="hover:text-white transition-colors">Instagram</Link></li>
               <li><Link href="#" className="hover:text-white transition-colors">LinkedIn</Link></li>
               <li><Link href="#" className="hover:text-white transition-colors">Twitter</Link></li>

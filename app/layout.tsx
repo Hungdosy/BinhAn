@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Inter, Merriweather } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
+import { ZaloChatWidget } from '@/components/zalo-chat-widget'
 
 const _inter = Inter({ 
   subsets: ['latin', 'latin-ext'],
@@ -45,6 +46,7 @@ export default function RootLayout({
     <html lang="vi">
       <body className={`font-sans antialiased`}>
         {children}
+        <ZaloChatWidget />
         <Analytics />
       </body>
     </html>
